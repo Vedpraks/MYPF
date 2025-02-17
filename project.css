@@ -1,0 +1,46 @@
+.text.center{
+    text-align: center;
+}
+.bg-red{
+    background: rgb(55, 47, 47);
+}
+.max-auto{
+    margin: auto;
+}
+.button{
+    background-color: rgb(255, 191, 0);
+    padding: 20px;
+}
+.flex{
+    display: flex;
+
+}
+.flex-col{
+    flex-direction: column;
+}
+.button{
+    padding:20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 66px;
+    font-size: 20px;
+}
+.container{
+    align-items: center;
+}
+.row{
+    margin: 8px 0px;
+}
+.row input{
+    background-color: rgb(235, 233, 148);
+    padding: 11px 38px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    margin-left: 0px;
+    width: 220px;
+}
