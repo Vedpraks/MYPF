@@ -1,65 +1,67 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: -0px;
+    padding: -0px;
 }
 .sidebar{
     background-color:rgb(185, 183, 183);
     width:150px ;
-    transition:transform 0.3s ease-in ;
+    transition:transform 0.2s ease-in ;
     position: absolute;
-    height: 100vh;
+    height: 105vh;
     
 
 }
 .sidebar nav{
-    padding: 20px;
+    padding: 25px;
 
 }
 .sidebar nav li{
     list-style: none;
     font-size: 20px;
-    padding: 33px 0;
-    
+    padding: px 0;
+    margin-top: 20px;
+    padding-left: 10px;
 }
 .main{
-   
-    width: 80vw;
     display: flex;
 }
 .container{
     display: flex;
 }
-.info{
-    height: 58vh;
-    width: 70vw;
-    margin: 144px auto;
-    display: flex;
-    justify-content:space-around;
-    border-radius: 15px;
 
-}
 .devpic img{
     width: 250px;
     height: 250px;
     border-radius: 150px;
-    margin-left: 300px;
+    margin-left:300px;
     border: 15px solid rgb(247, 216, 201);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
-.vedinfo{
-    margin-top: 15px;
+.vedinfo{ 
+    width: 1000px;
+    height: 600px;
     display: flex;
     flex-direction:column;
-    justify-content: center;
+    background-color: rgb(29, 29, 29);
+    margin-left: 250px;
+    margin-top: 50px;
+
+
 
 }
 .hello{
-    font-size: 65px;
+    
+    font-size: 50px;
 }
 .name{
+    margin-left: 1px;
     font-size: 37px;
     font-weight:bold ;
 }
 .about{
+    margin-left: 10px;
     font-size: 30px;
     margin-top: 23px;
     font-family: sans-serif;
@@ -67,7 +69,7 @@
 .buttons button{
     padding:10px 14px;
     border-radius: 21px;
-    background-color: rgb(88, 185, 241);
+    background-color: rgb(81, 151, 192);
     color:white ;
     font-size: 21px;
     margin: 0 3px;
@@ -81,8 +83,7 @@
 .sidebar nav li a{
     text-decoration: none;
     color: black;
-    margin-top: 30px;
-    margin-left: 10px;
+    margin-left: px;
 }
 .skill{
     margin-left: 5px;
@@ -91,24 +92,24 @@
     display: flex;
     width: 300px;
     height: 300px;
-    background-color: rgb(152, 223, 199);
+    background-color: rgb(33, 173, 126);
     justify-content: center;
 }
 .hamburger{
     position:absolute;
     cursor: pointer;
     top:5px;
-    left:5px
-    
+    left:px;
+    border-radius: 10px;
 }
 .cross{
-    margin-left:110px ;
+    margin-left:116px ;
     border-radius: 10px;
 }
 .sidebargo{
     transform:translate(-40vw, 0px)
 }
-@media (max-width:400px)
+@media (max-width:1225px)
 {
    /* *{
         background-color: ;
@@ -121,13 +122,14 @@
     
 
     }
-    .info{
+    .vedinfo{
         position:absolute ;
         font-size: 20px;
         font-family: sans-serif;
-        background-color: rgb(140, 140, 206);
-        margin-right: 200px;
+        background-color: rgb(79, 79, 92);
+        margin-left: 100px;
         margin-bottom: 100px;
+        width:70vw ;
         
 
     }
@@ -149,7 +151,7 @@
     }
 
 }
-@media(max-width:700px){
+@media(max-width:1000px){
    .devpic{
 
             display: none;
@@ -170,28 +172,25 @@
         font-size:5px;
     }
 }
-@media(max-width:350px){
-    .info{
-    margin-left: 120px;
-        width: 300px;
-        height: 500px;
+@media(max-width:1050px){
+
     }
     .sidebar{
-        width: 20vw;
+        width: 10vw;
         margin-right: 20vw;
     }
     .sidebar nav li{
         margin-bottom:100px;
         margin-right: 100px;
     }
-}
+
 @media (max-width:700px){
     .sidebar{
         transition:translate(-600px, 0px);
     }
 }
 .ham{
-    margin-left: 5px;
+    margin-left: 8px;
 }
 @media (max-width:903px){
     .skill{
@@ -208,14 +207,32 @@
     }
 }
 .aboutt{
-    background-color: rgb(147, 166, 166);
-     width: 50vw;
+    background-color: rgb(87, 105, 105);
+     width: 70vw;
       margin-left: 300px; 
       border-radius: 15px;
       height: 70vh;
+      margin-top: 100px;
 }
 .linkedin button{
     border-radius: 100px;
-    background-color: rgb(197, 197, 248);
+    background-color: rgb(72, 178, 213);
     color: rgb(206, 63, 63);
+}
+
+@media(max-width:730px){
+
+    .info{
+        position:absolute ;
+        font-size: 20px;
+        font-family: sans-serif;
+        background-color: rgb(177, 177, 237);
+        margin-left: 140px;
+        margin-bottom: 100px;
+        
+    }
+    .sidebar{
+        width: 27vw;
+        height:1200px ;
+    }
 }
